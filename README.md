@@ -6,7 +6,7 @@ Better Call Saul for the Nintendo DS.
 ## Playing
 For the best experience, copy `bcsds.nds` to a flash cart of your choice and run it on hardware.
 
-If you'd like to emulate it, you'll have to use [No$gba](http://problemkaputt.de/gba.htm) (as MelonDS doesn't seem to like reading from nitrofiles). It's not the most user friendly, but it will work.
+You can emulate it using [No$gba](http://problemkaputt.de/gba.htm), DeSMuME or MelonDS (the latter of which you must enable DLDI mode in the config).
 
 Touch the screen to start the game (once you've had enough of the title screen). To play, you need to move the randomly shuffled spliced numbers into the four slots to match Mesa Verde's address&dagger; - 1216 (one after Magna Carta)! Keep sound on for the best experience.
 
