@@ -130,7 +130,6 @@ void setGameOver(const char text[])
 	NF_ClearTextLayer(0, 0);
 	NF_WriteText(1, 1, 11, 8, text);
 	NF_WriteText(1, 1, 5, 9.5, "* TOUCH TO CONTINUE *");
-	NF_WriteText(0, 0, 1, 1, "");
 }
 
 int main()
@@ -443,13 +442,16 @@ int main()
 											// Better call saul!
 											NF_PlayRawSound(3, 94, 64, false, 0);
 
-											level++;
 											if (level > 9)
 											{
-												setGameOver("YOU WIN!");
+												mode = 3;
+												currentTime = 0;
+												currentQuota = 0;
 												frame = 0;
+												setGameOver("YOU WIN!!");
 												break;
 											}
+											level++;
 											currentQuota = 0;
 											currentTime = getTimeLimit(level);
 										}
