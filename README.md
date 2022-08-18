@@ -10,7 +10,7 @@ You can emulate it using [No$gba](http://problemkaputt.de/gba.htm), DeSMuME or M
 
 Touch the screen to start the game (once you've had enough of the title screen). To play, you need to move the randomly shuffled spliced numbers into the four slots to match Mesa Verde's address&dagger; - 1216 (one after Magna Carta)! Keep sound on for the best experience.
 
-&dagger; *Doesn't Jimmy switch the numbers to 1261 in ths show?* → I think if you double check you'll see that 1216 is correct!!!
+&dagger; *Doesn't Jimmy switch the numbers to 1261 in the show?* → I think if you double check you'll see that 1216 is correct!!!
 
 ## Compiling
 Install devkitpro and libnds (On Windows, I reccommend doing this through Msys rather than through the graphical installer). Simply run `make` in the directory to build.
